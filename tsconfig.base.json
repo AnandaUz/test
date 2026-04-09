@@ -3,7 +3,6 @@
     /* Базовые настройки */
     "target": "ES2022",
     "module": "ESNext",
-    "moduleResolution": "Bundler", 
     "strict": true,                 /* Включаем все проверки (обязательно) */
     "skipLibCheck": true,           /* Ускоряет сборку, не проверяя типы внутри библиотек */
     "esModuleInterop": true,        /* Для нормального импорта CommonJS модулей */
@@ -16,12 +15,7 @@
     "noFallthroughCasesInSwitch": true,
 
     "exactOptionalPropertyTypes": true,
-    "noUncheckedIndexedAccess": true,
+    "noUncheckedIndexedAccess": true,    
     
-    /* Пути (опционально) */
-    "paths": {
-      "@base/*": ["_base/*"],
-      "@shared/*": ["shared/*"]     /* Если захочешь общие типы для клиента и сервера */
-    }
   }
 }
