@@ -1,0 +1,26 @@
+{
+  "name": "test.uz",
+  "version": "0.0.1",
+  "description": "Проект для тестирования",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnandaUz/test.git"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2",
+    "tsx": "^4.20.5"
+  }
+}

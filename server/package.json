@@ -1,0 +1,14 @@
+{
+  "name": "test-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+
+  }
+}
