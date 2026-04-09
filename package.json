@@ -15,10 +15,11 @@
     "dev:server": "cd server && npm run dev",
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
     "build:client": "cd client && npm run build",
-    "build:server": "tsc -p server"
+    "build:server": "cd server && npm run build"
   },
   "devDependencies": {
     "@types/node": "^25.5.2",
+    "tsc-alias": "^1.8.16",
     "tsx": "^4.20.5",
     "typescript": "^6.0.2"
   }

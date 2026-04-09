@@ -1,5 +1,5 @@
 import http from 'http';
-import { test } from '../../_base/server/test.js';
+import { test } from '@base/server/test.js';
 
 const PORT = 8080;
 

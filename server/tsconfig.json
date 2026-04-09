@@ -8,6 +8,12 @@
     "outDir": "./dist",
     "rootDir": "../",
 
-    "types": ["node"]    
+    "ignoreDeprecations": "6.0",
+    "baseUrl": "../",
+
+    "types": ["node"],
+    "paths": {
+      "@base/*": ["./_base/*"]
+    }
   }
 }
