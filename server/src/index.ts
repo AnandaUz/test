@@ -1,5 +1,5 @@
 import http from 'http';
-import { test } from '../../_base/server/test.js';
+// import { test } from '../../_base/server/test.js';
 
 const PORT = 8080;
 
@@ -10,6 +10,6 @@ const server = http.createServer((_req, res) => {
 
 server.listen(PORT, () => {
 
-  test();
+  // test();
   console.log(`Server running on port ${PORT}`);
 });
