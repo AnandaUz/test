@@ -20,7 +20,8 @@
     "ignoreDeprecations": "6.0",
     "baseUrl": "../",
     "paths": {
-      "@base/*": ["./_base/*"]
+      "@base/*": ["./_base/*"],
+      "@shared/*": ["./shared/*"]
     }
   }
 }
