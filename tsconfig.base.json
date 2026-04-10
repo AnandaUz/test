@@ -15,13 +15,8 @@
     "noFallthroughCasesInSwitch": true,
 
     "exactOptionalPropertyTypes": true,
-    "noUncheckedIndexedAccess": true,    
+    "noUncheckedIndexedAccess": true,   
 
-    "ignoreDeprecations": "6.0",
-    "baseUrl": "../",
-    "paths": {
-      "@base/*": ["./_base/*"],
-      "@shared/*": ["./shared/*"]
-    }
+
   }
 }
