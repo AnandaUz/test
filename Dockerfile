@@ -25,13 +25,6 @@ COPY server ./server
 
 RUN npm install
 
-RUN ls -l
-RUN ls -l _base
-RUN ls -l node_modules
-RUN ls -l node_modules/@base || true
-
-RUN sleep infinity
-
 # build
 RUN npm run build:server
 

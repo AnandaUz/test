@@ -1,5 +1,6 @@
 {
   "name": "test.uz",
+  "type": "module",
   "version": "0.0.1",
   "description": "Проект для тестирования",
   "repository": {
@@ -7,7 +8,6 @@
     "url": "git+https://github.com/AnandaUz/test.git"
   },
   "workspaces": [
-    "_base",
     "client",
     "server"
   ],
